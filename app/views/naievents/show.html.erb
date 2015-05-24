@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @naievent.title %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @naievent.location %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @naievent.date %>
+</p>
+
+<%= link_to 'Edit', edit_naievent_path(@naievent) %> |
+<%= link_to 'Back', naievents_path %>
